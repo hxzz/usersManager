@@ -28,7 +28,7 @@
   		<groupId>com.hexincad.webcad</groupId>
   		<artifactId>common-lib</artifactId>
   		<version>0.02</version>
-  		<type>war</type>
+  		<type>jar</type>
   	</dependency>
   </dependencies>
 </project>
