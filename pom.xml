@@ -4,6 +4,12 @@
   <artifactId>usersManager</artifactId>
   <version>0.02-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<spring.version>4.1.4.RELEASE</spring.version>
+  </properties>
+  
   <build>
     <plugins>
       <plugin>
@@ -67,11 +73,11 @@
   			
   	<!-- servlet -->
 	<dependency>
-		<groupId>javax.servlet</groupId>
-		<artifactId>servlet-api</artifactId>
-		<version>3.0-alpha-1</version>
-		<scope>provided</scope>
-	</dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.1.0</version>
+		    <scope>provided</scope>
+	</dependency>	
 
 		
 	<!-- junit -->
